@@ -3,9 +3,9 @@ name: Android CI
 # Esse robô roda toda vez que você faz um Push para a branch main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-test:
